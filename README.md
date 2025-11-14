@@ -82,7 +82,7 @@ To ensure fairness:
 
 ## 🕐 Submission Limits
 
-- Each participant may submit **one Pull Request per day**.
+- Each Team should name the file something like: **Team1**.
 - Only the **latest submission** counts toward the leaderboard.
 
 ---
