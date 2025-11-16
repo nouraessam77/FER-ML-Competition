@@ -24,7 +24,7 @@ acc = accuracy_score(merged["emotion"], merged["predicted_label"])
 print(f"Accuracy for {team_name}: {acc*100:.2f}%")
 
 # Update single leaderboard CSV
-leaderboard_file = "final_leaderboard.csv"
+leaderboard_file = "final_results.csv"
 new_entry = {
     'Team': team_name,
     'Accuracy': acc*100
