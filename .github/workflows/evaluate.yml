@@ -61,7 +61,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add final_leaderboard.csv 
+          git add final_results.csv 
           git commit -m "Update leaderboard and team results from PR #${{ github.event.number }} [Automated]"
           git push origin main
         env:
